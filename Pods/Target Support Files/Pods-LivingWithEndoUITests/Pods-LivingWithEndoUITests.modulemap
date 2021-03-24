@@ -1,0 +1,6 @@
+framework module Pods_LivingWithEndoUITests {
+  umbrella header "Pods-LivingWithEndoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

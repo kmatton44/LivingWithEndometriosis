@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DE39171B4EF5A4EC06A6487 /* Pods_LivingWithEndoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3C99516ABA757E8B2CA4B6 /* Pods_LivingWithEndoUITests.framework */; };
+		4428E7823DA35F9E462F3A22 /* Pods_LivingWithEndo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5154EA8FCD2FC3EBBBF6CA1C /* Pods_LivingWithEndo.framework */; };
+		5F3FD98722DD6FE200F126FE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3FD98622DD6FE200F126FE /* WebKit.framework */; };
+		5F5D26E322DE5D27002D417E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D26E222DE5D27002D417E /* WelcomeViewController.swift */; };
+		5F87659A22E3B50D00801ED8 /* LivingWithEndo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F87659822E3B50D00801ED8 /* LivingWithEndo.xcdatamodeld */; };
+		5F8765A122E3DC4D00801ED8 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8765A022E3DC4D00801ED8 /* AddToDoViewController.swift */; };
+		5F8765A322E3DC9A00801ED8 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8765A222E3DC9A00801ED8 /* TodoTableViewController.swift */; };
+		5F8765A822E4032400801ED8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8765A722E4032400801ED8 /* CoreDataStack.swift */; };
+		5F8B2DEF231F1DA40098221E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B2DEE231F1DA40098221E /* SettingsViewController.swift */; };
+		5FE8633222DD3DCF006B2032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8633122DD3DCF006B2032 /* AppDelegate.swift */; };
+		5FE8633422DD3DCF006B2032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8633322DD3DCF006B2032 /* ViewController.swift */; };
+		5FE8633722DD3DCF006B2032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE8633522DD3DCF006B2032 /* Main.storyboard */; };
+		5FE8633922DD3DD1006B2032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE8633822DD3DD1006B2032 /* Assets.xcassets */; };
+		5FE8633C22DD3DD1006B2032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE8633A22DD3DD1006B2032 /* LaunchScreen.storyboard */; };
+		5FE8634722DD3DD1006B2032 /* LivingWithEndoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8634622DD3DD1006B2032 /* LivingWithEndoTests.swift */; };
+		5FE8635222DD3DD1006B2032 /* LivingWithEndoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8635122DD3DD1006B2032 /* LivingWithEndoUITests.swift */; };
+		5FE8636222DD4707006B2032 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8636122DD4707006B2032 /* RoundButton.swift */; };
+		E66CB15F30A60534D2BC0587 /* Pods_LivingWithEndoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3966EE76857ED899E2038D8F /* Pods_LivingWithEndoTests.framework */; };
+		FA10560126015E7E000A7E28 /* EditNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10560026015E7E000A7E28 /* EditNameViewController.swift */; };
+		FA738D9926098EB900AA999E /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA738D9826098EB900AA999E /* MessagesViewController.swift */; };
+		FA738D9E26098F5F00AA999E /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA738D9D26098F5F00AA999E /* MessageTableViewCell.swift */; };
+		FA9FC84626017E6100AFD400 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA9FC84526017E6000AFD400 /* GoogleService-Info.plist */; };
+		FADD8DDF26057AA600DD1426 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD8DDE26057AA600DD1426 /* CommunityViewController.swift */; };
+		FAEAEBBE2601AE56002C5086 /* LetsGetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAEBBD2601AE56002C5086 /* LetsGetStartedViewController.swift */; };
+		FAEAEBCB2601BF39002C5086 /* RemedyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAEBCA2601BF39002C5086 /* RemedyTableViewCell.swift */; };
+		FAEAEBD026025CB7002C5086 /* Remedies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAEBCF26025CB7002C5086 /* Remedies.swift */; };
+		FAEAEBD526025EC3002C5086 /* RemedyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAEBD426025EC3002C5086 /* RemedyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FE8634322DD3DD1006B2032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE8632622DD3DCF006B2032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE8632D22DD3DCF006B2032;
+			remoteInfo = LivingWithEndo;
+		};
+		5FE8634E22DD3DD1006B2032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE8632622DD3DCF006B2032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE8632D22DD3DCF006B2032;
+			remoteInfo = LivingWithEndo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10598BA67587E373952310EC /* Pods-LivingWithEndo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivingWithEndo.debug.xcconfig"; path = "Target Support Files/Pods-LivingWithEndo/Pods-LivingWithEndo.debug.xcconfig"; sourceTree = "<group>"; };
+		19916C48E2C560B0F32240C8 /* Pods-LivingWithEndo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivingWithEndo.release.xcconfig"; path = "Target Support Files/Pods-LivingWithEndo/Pods-LivingWithEndo.release.xcconfig"; sourceTree = "<group>"; };
+		3966EE76857ED899E2038D8F /* Pods_LivingWithEndoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivingWithEndoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5154EA8FCD2FC3EBBBF6CA1C /* Pods_LivingWithEndo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivingWithEndo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3FD98622DD6FE200F126FE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5F5D26E222DE5D27002D417E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5F87659922E3B50D00801ED8 /* LivingWithEndo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LivingWithEndo.xcdatamodel; sourceTree = "<group>"; };
+		5F8765A022E3DC4D00801ED8 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		5F8765A222E3DC9A00801ED8 /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
+		5F8765A722E4032400801ED8 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		5F8B2DEE231F1DA40098221E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5FE8632E22DD3DCF006B2032 /* LivingWithEndo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingWithEndo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE8633122DD3DCF006B2032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FE8633322DD3DCF006B2032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FE8633622DD3DCF006B2032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE8633822DD3DD1006B2032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FE8633B22DD3DD1006B2032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FE8633D22DD3DD1006B2032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE8634222DD3DD1006B2032 /* LivingWithEndoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivingWithEndoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE8634622DD3DD1006B2032 /* LivingWithEndoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingWithEndoTests.swift; sourceTree = "<group>"; };
+		5FE8634822DD3DD1006B2032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE8634D22DD3DD1006B2032 /* LivingWithEndoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivingWithEndoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE8635122DD3DD1006B2032 /* LivingWithEndoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingWithEndoUITests.swift; sourceTree = "<group>"; };
+		5FE8635322DD3DD1006B2032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE8636122DD4707006B2032 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		6E83B3A50B41C7AEA6EF32DB /* Pods-LivingWithEndoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivingWithEndoTests.release.xcconfig"; path = "Target Support Files/Pods-LivingWithEndoTests/Pods-LivingWithEndoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D962AC7D9E769ED858DC5F4 /* Pods-LivingWithEndoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivingWithEndoUITests.debug.xcconfig"; path = "Target Support Files/Pods-LivingWithEndoUITests/Pods-LivingWithEndoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E3C99516ABA757E8B2CA4B6 /* Pods_LivingWithEndoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivingWithEndoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C254E3CB27FD3EB67E67F0A0 /* Pods-LivingWithEndoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivingWithEndoUITests.release.xcconfig"; path = "Target Support Files/Pods-LivingWithEndoUITests/Pods-LivingWithEndoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F535372AF39ABEB4DAD11E10 /* Pods-LivingWithEndoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivingWithEndoTests.debug.xcconfig"; path = "Target Support Files/Pods-LivingWithEndoTests/Pods-LivingWithEndoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA10560026015E7E000A7E28 /* EditNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameViewController.swift; sourceTree = "<group>"; };
+		FA738D9826098EB900AA999E /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		FA738D9D26098F5F00AA999E /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		FA9FC84526017E6000AFD400 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FADD8DDE26057AA600DD1426 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		FAEAEBBD2601AE56002C5086 /* LetsGetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsGetStartedViewController.swift; sourceTree = "<group>"; };
+		FAEAEBCA2601BF39002C5086 /* RemedyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemedyTableViewCell.swift; sourceTree = "<group>"; };
+		FAEAEBCF26025CB7002C5086 /* Remedies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remedies.swift; sourceTree = "<group>"; };
+		FAEAEBD426025EC3002C5086 /* RemedyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemedyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE8632B22DD3DCF006B2032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3FD98722DD6FE200F126FE /* WebKit.framework in Frameworks */,
+				4428E7823DA35F9E462F3A22 /* Pods_LivingWithEndo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE8633F22DD3DD1006B2032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66CB15F30A60534D2BC0587 /* Pods_LivingWithEndoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE8634A22DD3DD1006B2032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE39171B4EF5A4EC06A6487 /* Pods_LivingWithEndoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F3FD98522DD6FE000F126FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F3FD98622DD6FE200F126FE /* WebKit.framework */,
+				5154EA8FCD2FC3EBBBF6CA1C /* Pods_LivingWithEndo.framework */,
+				3966EE76857ED899E2038D8F /* Pods_LivingWithEndoTests.framework */,
+				9E3C99516ABA757E8B2CA4B6 /* Pods_LivingWithEndoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F87659F22E3DC2000801ED8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8633322DD3DCF006B2032 /* ViewController.swift */,
+				5F5D26E222DE5D27002D417E /* WelcomeViewController.swift */,
+				5F8B2DEE231F1DA40098221E /* SettingsViewController.swift */,
+				FA738D9826098EB900AA999E /* MessagesViewController.swift */,
+				FADD8DDE26057AA600DD1426 /* CommunityViewController.swift */,
+				FAEAEBBD2601AE56002C5086 /* LetsGetStartedViewController.swift */,
+				FAEAEBD426025EC3002C5086 /* RemedyViewController.swift */,
+				FA10560026015E7E000A7E28 /* EditNameViewController.swift */,
+				5F8765A022E3DC4D00801ED8 /* AddToDoViewController.swift */,
+				5F8765A222E3DC9A00801ED8 /* TodoTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F8765A422E402BF00801ED8 /* TheCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5F87659822E3B50D00801ED8 /* LivingWithEndo.xcdatamodeld */,
+				5F8765A722E4032400801ED8 /* CoreDataStack.swift */,
+			);
+			path = TheCoreData;
+			sourceTree = "<group>";
+		};
+		5FE8632522DD3DCF006B2032 = {
+			isa = PBXGroup;
+			children = (
+				5F8765A422E402BF00801ED8 /* TheCoreData */,
+				5FE8633022DD3DCF006B2032 /* LivingWithEndo */,
+				5FE8634522DD3DD1006B2032 /* LivingWithEndoTests */,
+				5FE8635022DD3DD1006B2032 /* LivingWithEndoUITests */,
+				5FE8632F22DD3DCF006B2032 /* Products */,
+				5F3FD98522DD6FE000F126FE /* Frameworks */,
+				7FEE9C616A0F5AFF8B2D933B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE8632F22DD3DCF006B2032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8632E22DD3DCF006B2032 /* LivingWithEndo.app */,
+				5FE8634222DD3DD1006B2032 /* LivingWithEndoTests.xctest */,
+				5FE8634D22DD3DD1006B2032 /* LivingWithEndoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE8633022DD3DCF006B2032 /* LivingWithEndo */ = {
+			isa = PBXGroup;
+			children = (
+				FA7DA4B8260BB0F0008CC947 /* Model */,
+				5F87659F22E3DC2000801ED8 /* Controller */,
+				5FE8633122DD3DCF006B2032 /* AppDelegate.swift */,
+				5FE8633522DD3DCF006B2032 /* Main.storyboard */,
+				5FE8633A22DD3DD1006B2032 /* LaunchScreen.storyboard */,
+				5FE8633822DD3DD1006B2032 /* Assets.xcassets */,
+				5FE8633D22DD3DD1006B2032 /* Info.plist */,
+				FA9FC84526017E6000AFD400 /* GoogleService-Info.plist */,
+			);
+			path = LivingWithEndo;
+			sourceTree = "<group>";
+		};
+		5FE8634522DD3DD1006B2032 /* LivingWithEndoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8634622DD3DD1006B2032 /* LivingWithEndoTests.swift */,
+				5FE8634822DD3DD1006B2032 /* Info.plist */,
+			);
+			path = LivingWithEndoTests;
+			sourceTree = "<group>";
+		};
+		5FE8635022DD3DD1006B2032 /* LivingWithEndoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8635122DD3DD1006B2032 /* LivingWithEndoUITests.swift */,
+				5FE8635322DD3DD1006B2032 /* Info.plist */,
+			);
+			path = LivingWithEndoUITests;
+			sourceTree = "<group>";
+		};
+		7FEE9C616A0F5AFF8B2D933B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10598BA67587E373952310EC /* Pods-LivingWithEndo.debug.xcconfig */,
+				19916C48E2C560B0F32240C8 /* Pods-LivingWithEndo.release.xcconfig */,
+				F535372AF39ABEB4DAD11E10 /* Pods-LivingWithEndoTests.debug.xcconfig */,
+				6E83B3A50B41C7AEA6EF32DB /* Pods-LivingWithEndoTests.release.xcconfig */,
+				8D962AC7D9E769ED858DC5F4 /* Pods-LivingWithEndoUITests.debug.xcconfig */,
+				C254E3CB27FD3EB67E67F0A0 /* Pods-LivingWithEndoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA7DA4B8260BB0F0008CC947 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8636122DD4707006B2032 /* RoundButton.swift */,
+				FAEAEBCF26025CB7002C5086 /* Remedies.swift */,
+				FA738D9D26098F5F00AA999E /* MessageTableViewCell.swift */,
+				FAEAEBCA2601BF39002C5086 /* RemedyTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE8632D22DD3DCF006B2032 /* LivingWithEndo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE8635622DD3DD1006B2032 /* Build configuration list for PBXNativeTarget "LivingWithEndo" */;
+			buildPhases = (
+				E157EB51B50D484671EB72DC /* [CP] Check Pods Manifest.lock */,
+				5FE8632A22DD3DCF006B2032 /* Sources */,
+				5FE8632B22DD3DCF006B2032 /* Frameworks */,
+				5FE8632C22DD3DCF006B2032 /* Resources */,
+				C4FFA0E6800003F7FCF2C20F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivingWithEndo;
+			productName = LivingWithEndo;
+			productReference = 5FE8632E22DD3DCF006B2032 /* LivingWithEndo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FE8634122DD3DD1006B2032 /* LivingWithEndoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE8635922DD3DD1006B2032 /* Build configuration list for PBXNativeTarget "LivingWithEndoTests" */;
+			buildPhases = (
+				60C025C08DBBCFA539DDE5E4 /* [CP] Check Pods Manifest.lock */,
+				5FE8633E22DD3DD1006B2032 /* Sources */,
+				5FE8633F22DD3DD1006B2032 /* Frameworks */,
+				5FE8634022DD3DD1006B2032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE8634422DD3DD1006B2032 /* PBXTargetDependency */,
+			);
+			name = LivingWithEndoTests;
+			productName = LivingWithEndoTests;
+			productReference = 5FE8634222DD3DD1006B2032 /* LivingWithEndoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FE8634C22DD3DD1006B2032 /* LivingWithEndoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE8635C22DD3DD1006B2032 /* Build configuration list for PBXNativeTarget "LivingWithEndoUITests" */;
+			buildPhases = (
+				F2C3B99F58B150FD35943332 /* [CP] Check Pods Manifest.lock */,
+				5FE8634922DD3DD1006B2032 /* Sources */,
+				5FE8634A22DD3DD1006B2032 /* Frameworks */,
+				5FE8634B22DD3DD1006B2032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE8634F22DD3DD1006B2032 /* PBXTargetDependency */,
+			);
+			name = LivingWithEndoUITests;
+			productName = LivingWithEndoUITests;
+			productReference = 5FE8634D22DD3DD1006B2032 /* LivingWithEndoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE8632622DD3DCF006B2032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kanoa Matton";
+				TargetAttributes = {
+					5FE8632D22DD3DCF006B2032 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					5FE8634122DD3DD1006B2032 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5FE8632D22DD3DCF006B2032;
+					};
+					5FE8634C22DD3DD1006B2032 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5FE8632D22DD3DCF006B2032;
+					};
+				};
+			};
+			buildConfigurationList = 5FE8632922DD3DCF006B2032 /* Build configuration list for PBXProject "LivingWithEndo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE8632522DD3DCF006B2032;
+			productRefGroup = 5FE8632F22DD3DCF006B2032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE8632D22DD3DCF006B2032 /* LivingWithEndo */,
+				5FE8634122DD3DD1006B2032 /* LivingWithEndoTests */,
+				5FE8634C22DD3DD1006B2032 /* LivingWithEndoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE8632C22DD3DCF006B2032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE8633C22DD3DD1006B2032 /* LaunchScreen.storyboard in Resources */,
+				FA9FC84626017E6100AFD400 /* GoogleService-Info.plist in Resources */,
+				5FE8633922DD3DD1006B2032 /* Assets.xcassets in Resources */,
+				5FE8633722DD3DCF006B2032 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE8634022DD3DD1006B2032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE8634B22DD3DD1006B2032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60C025C08DBBCFA539DDE5E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LivingWithEndoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FFA0E6800003F7FCF2C20F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LivingWithEndo/Pods-LivingWithEndo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LivingWithEndo/Pods-LivingWithEndo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LivingWithEndo/Pods-LivingWithEndo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E157EB51B50D484671EB72DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LivingWithEndo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C3B99F58B150FD35943332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LivingWithEndoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE8632A22DD3DCF006B2032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEAEBCB2601BF39002C5086 /* RemedyTableViewCell.swift in Sources */,
+				5FE8636222DD4707006B2032 /* RoundButton.swift in Sources */,
+				5F5D26E322DE5D27002D417E /* WelcomeViewController.swift in Sources */,
+				5F87659A22E3B50D00801ED8 /* LivingWithEndo.xcdatamodeld in Sources */,
+				5F8765A822E4032400801ED8 /* CoreDataStack.swift in Sources */,
+				FADD8DDF26057AA600DD1426 /* CommunityViewController.swift in Sources */,
+				FAEAEBBE2601AE56002C5086 /* LetsGetStartedViewController.swift in Sources */,
+				5FE8633422DD3DCF006B2032 /* ViewController.swift in Sources */,
+				FA10560126015E7E000A7E28 /* EditNameViewController.swift in Sources */,
+				5F8B2DEF231F1DA40098221E /* SettingsViewController.swift in Sources */,
+				5FE8633222DD3DCF006B2032 /* AppDelegate.swift in Sources */,
+				FA738D9E26098F5F00AA999E /* MessageTableViewCell.swift in Sources */,
+				FA738D9926098EB900AA999E /* MessagesViewController.swift in Sources */,
+				FAEAEBD526025EC3002C5086 /* RemedyViewController.swift in Sources */,
+				5F8765A322E3DC9A00801ED8 /* TodoTableViewController.swift in Sources */,
+				FAEAEBD026025CB7002C5086 /* Remedies.swift in Sources */,
+				5F8765A122E3DC4D00801ED8 /* AddToDoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE8633E22DD3DD1006B2032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE8634722DD3DD1006B2032 /* LivingWithEndoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE8634922DD3DD1006B2032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE8635222DD3DD1006B2032 /* LivingWithEndoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FE8634422DD3DD1006B2032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE8632D22DD3DCF006B2032 /* LivingWithEndo */;
+			targetProxy = 5FE8634322DD3DD1006B2032 /* PBXContainerItemProxy */;
+		};
+		5FE8634F22DD3DD1006B2032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE8632D22DD3DCF006B2032 /* LivingWithEndo */;
+			targetProxy = 5FE8634E22DD3DD1006B2032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FE8633522DD3DCF006B2032 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE8633622DD3DCF006B2032 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FE8633A22DD3DD1006B2032 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE8633B22DD3DD1006B2032 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FE8635422DD3DD1006B2032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FE8635522DD3DD1006B2032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE8635722DD3DD1006B2032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10598BA67587E373952310EC /* Pods-LivingWithEndo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7DPQZ8553;
+				INFOPLIST_FILE = LivingWithEndo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMDev.LivingWithEndo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5FE8635822DD3DD1006B2032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19916C48E2C560B0F32240C8 /* Pods-LivingWithEndo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7DPQZ8553;
+				INFOPLIST_FILE = LivingWithEndo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMDev.LivingWithEndo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5FE8635A22DD3DD1006B2032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F535372AF39ABEB4DAD11E10 /* Pods-LivingWithEndoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7DPQZ8553;
+				INFOPLIST_FILE = LivingWithEndoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMDev.LivingWithEndoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivingWithEndo.app/LivingWithEndo";
+			};
+			name = Debug;
+		};
+		5FE8635B22DD3DD1006B2032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E83B3A50B41C7AEA6EF32DB /* Pods-LivingWithEndoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7DPQZ8553;
+				INFOPLIST_FILE = LivingWithEndoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMDev.LivingWithEndoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivingWithEndo.app/LivingWithEndo";
+			};
+			name = Release;
+		};
+		5FE8635D22DD3DD1006B2032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D962AC7D9E769ED858DC5F4 /* Pods-LivingWithEndoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7DPQZ8553;
+				INFOPLIST_FILE = LivingWithEndoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMDev.LivingWithEndoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LivingWithEndo;
+			};
+			name = Debug;
+		};
+		5FE8635E22DD3DD1006B2032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C254E3CB27FD3EB67E67F0A0 /* Pods-LivingWithEndoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7DPQZ8553;
+				INFOPLIST_FILE = LivingWithEndoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMDev.LivingWithEndoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LivingWithEndo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE8632922DD3DCF006B2032 /* Build configuration list for PBXProject "LivingWithEndo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE8635422DD3DD1006B2032 /* Debug */,
+				5FE8635522DD3DD1006B2032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE8635622DD3DD1006B2032 /* Build configuration list for PBXNativeTarget "LivingWithEndo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE8635722DD3DD1006B2032 /* Debug */,
+				5FE8635822DD3DD1006B2032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE8635922DD3DD1006B2032 /* Build configuration list for PBXNativeTarget "LivingWithEndoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE8635A22DD3DD1006B2032 /* Debug */,
+				5FE8635B22DD3DD1006B2032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE8635C22DD3DD1006B2032 /* Build configuration list for PBXNativeTarget "LivingWithEndoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE8635D22DD3DD1006B2032 /* Debug */,
+				5FE8635E22DD3DD1006B2032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5F87659822E3B50D00801ED8 /* LivingWithEndo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5F87659922E3B50D00801ED8 /* LivingWithEndo.xcdatamodel */,
+			);
+			currentVersion = 5F87659922E3B50D00801ED8 /* LivingWithEndo.xcdatamodel */;
+			path = LivingWithEndo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FE8632622DD3DCF006B2032 /* Project object */;
+}

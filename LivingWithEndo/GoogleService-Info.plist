@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>829378481268-h21rbpdn033lstdgfejtnjfkgj078ti2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.829378481268-h21rbpdn033lstdgfejtnjfkgj078ti2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCB8Su2JaRxaBxP4eLCQg5bMTaysjnhWJc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>829378481268</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.KMDev.LivingWithEndo</string>
+	<key>PROJECT_ID</key>
+	<string>living-with-endometriosis</string>
+	<key>STORAGE_BUCKET</key>
+	<string>living-with-endometriosis.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:829378481268:ios:dd28934ca1a71b59</string>
+	<key>DATABASE_URL</key>
+	<string>https://living-with-endometriosis.firebaseio.com</string>
+</dict>
+</plist>
